@@ -1,0 +1,13 @@
+{
+  "name": "hf-pdfjs",
+  "description": "pdfjs dist",
+  "authors": [
+    "Radu"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "pdfjs"
+  ],
+  "homepage": "https://github.com/radu-cigmaian/pdfjs-dist",
+  "moduleType": []
+}

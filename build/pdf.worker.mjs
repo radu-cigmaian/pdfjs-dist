@@ -38303,7 +38303,9 @@ class PartialEvaluator {
           category
         } = glyph;
         if (category.isInvisibleFormatMark) {
-          continue;
+          if (glyph.unicode === '­' && glyph.originalCharCode == 16) {} else {
+            continue;
+          }
         }
         let charSpacing = textState.charSpacing + (i + 1 === ii ? extraSpacing : 0);
         let glyphWidth = glyph.width;
